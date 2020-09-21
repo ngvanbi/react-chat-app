@@ -1,8 +1,11 @@
+// import Search from 'components/Search/Search';
+import MainChat from 'components/MainChat/MainChat';
 import React from 'react';
-import { Typography } from '@material-ui/core';
 
 export default function Home(): JSX.Element {
-  return(
-    <Typography variant="h1">Home page</Typography>
-  )
+  return (
+    <div>
+      <MainChat />
+    </div>
+  );
 }
